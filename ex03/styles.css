@@ -1,0 +1,36 @@
+body {
+  background-image: url("pics/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: cursive;
+}
+
+img:hover {
+  width:1000px;
+  height:1000px;
+}
+
+h1 {
+  background-color: gray;
+  color:skyblue;
+}
+
+p {
+  font-family: helvetica;
+  font-size:20px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.white-on-black {
+  color:white;
+  background-color: black;
+}
