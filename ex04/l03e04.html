@@ -1,0 +1,67 @@
+<html>
+<head>
+
+  <title>This is Exercise 4</title>
+
+  <script type="text/javascript" src="stylist.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">Andy's Lab 03</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Index</a></li>
+        <li><a href="../ex01/l03e01.html">Exercise 1</a></li>
+        <li><a href="../ex02/l03e02.html">Exercise 2</a></li>
+        <li><a href="../ex03/l03e03.html">Exercise 3</a></li>
+        <li class="active"><a href="l03e04.html">Exercise 4</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+
+  <h1>Dummy</h1>
+
+  <p id="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Why are you reading this. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <form name="stylizer">
+    <h4>Border</h4>
+    <p>Red:
+    <input type="number" value="0" min="0" max="255" name="border-red"></input></p>
+    <p>Green:
+    <input type="number" value="0" min="0" max="255" name="border-green"></input></p>
+    <p>Blue:
+    <input type="number" value="0" min="0" max="255" name="border-blue"></input></p>
+    <p>Width:
+    <input type="number" value="0" min="0" max="1000" name="border-width"></input></p>
+
+    <h4>Background</h4>
+    <p>Red:
+    <input type="number" value="0" min="0" max="255" name="background-red"></input></p>
+    <p>Green:
+    <input type="number" value="0" min="0" max="255" name="background-green"></input></p>
+    <p>Blue:
+    <input type="number" value="0" min="0" max="255" name="background-blue"></input></p>
+
+    <input class="btn btn-primary" type="button" value="Submit" onclick="changeColors()"/>
+  </form>
+
+  <br><br>
+  <form action="../index.html">
+    <input class="btn btn-default" type="Submit" value="Back to Index"/>
+  </form>
+
+</div>
+</body>
+</html>
